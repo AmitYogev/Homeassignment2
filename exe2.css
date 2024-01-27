@@ -77,14 +77,14 @@ h4{
         white-space: nowrap;
    }
 
-.hero-image {
+.Amit-image {
     display: flex;
     position: absolute;
     width: 565px;
     height: 500px; 
     right: 20px; 
     top: 200px; 
-    background: url('/WhatsApp Image 2024-01-25 at 20.44.55.jpeg') no-repeat center center;
+    background: url(./amit-homepage.jpeg) no-repeat center center;
     background-size: contain;
    
 }
@@ -162,7 +162,7 @@ h4{
     border-right: 2px solid #000;  /* גבול בצד ימני בצבע שחור */
 }
 .aboutmesec {
-    background-image: url(./ruppin.jpeg);
+    background-image: url(./Ruppinabout.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -208,7 +208,6 @@ background: #785d5abc;
   margin-right: 10px; 
   }
   
-
 
 /*Skills */
 .flex-box-skills {
@@ -356,7 +355,7 @@ ul li {
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-@media only screen and (max-width: 700px) {
+@media (max-width: 700px) {
     body {
         max-width: 100%;
         margin: 0;
@@ -368,7 +367,7 @@ ul li {
     .My-name {
         font-size: 50px;
     }
-    .hero-image {
+    .Amit-image {
         height: 300px; 
     }
     .menu-list li {
