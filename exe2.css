@@ -1,29 +1,28 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
 body{
     background-color: gray;
     font-family: 'Abhaya Libre ExtraBold';
+    min-height: 100vh;
 }
-.Toolbar {
-    position: fixed;
-    z-index: 2;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(0, 0, 0, 0.441);
-}
-/* HOME*/
 
+
+/* HOME*/
+/*
 .menu-list {
     display: flex;
-    justify-content: center; /* אמצע אופקית */
-    align-items: center; /* אמצע אנכית */
+    justify-content: center; 
+    align-items: center; 
     list-style: none;
     padding: 0;
 }
 
 .menu-list li {
-    margin: 0 40px; /* מרווח בין התגיות */
+    margin: 0 40px; 
     position: relative;
 }
 
@@ -33,6 +32,63 @@ body{
     padding: 10px;
     background-color: #ccccccab;
 }
+*/
+nav{
+    background-color: #00000071;
+    box-shadow:3px 3px 5px rgba(0, 0, 0 , 0.1);
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color:black;
+}
+nav a:hover{
+    background-color: wheat;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+.sidebar {
+    position: sticky;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    background-color: rgba(2, 0, 0, 0.368);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.509) ;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+
+.menu-button{
+    display: none;
+}
+
+
 
 .My-name{
 position: absolute;
@@ -355,28 +411,28 @@ ul li {
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-@media (max-width: 700px) {
-    body {
-        max-width: 100%;
-        margin: 0;
-        background: gainsboro;
+
+@media (max-width: 800px) {
+    
+    .hideonmobile {
+      display: none;
     }
-    .Toolbar {
-        height: 60px;
+    .menu-button {
+      display: block;
     }
-    .My-name {
-        font-size: 50px;
-    }
-    .Amit-image {
-        height: 300px; 
-    }
-    .menu-list li {
-        margin: 0 20px; 
-    }
-    .menu-list a {
-        padding: 8px; 
-        font-size: 14px;
+    .Amit-image{
+        position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
     }
     
+  }
+  
+  @media (max-width: 500px) {
+    .side-bar {
+      width: 200%;
+    }
+  }
 
-}
+
