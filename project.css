@@ -1,0 +1,52 @@
+/* Project*/
+.title-p {
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 150px;
+    color: #48201c;
+    text-align: center;
+    position: relative; 
+    background: #f1e8e77c; 
+    border-top: 2px solid #000;    /* גבול בחלק העליון בצבע שחור */
+    border-bottom: 2px solid #000; /* גבול בחלק התחתון בצבע שחור */
+    border-left: 2px solid #000;   /* גבול בצד שמאל בצבע שחור */
+    border-right: 2px solid #000;  /* גבול בצד ימני בצבע שחור */
+    margin-top: 100px; 
+}
+.flex-move {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px; 
+}
+.flex-box-project{
+    display: flex;
+    justify-content: center;
+}
+.flex-box-project img {
+    width: 300px;
+  height: 250px; 
+  margin-right: 10px; 
+  border-radius: 15%;
+  margin-bottom: 20px;
+  }
+  .flex-box-project img:hover {
+  opacity: 0.8; 
+    transform: scale(1.1); 
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; 
+
+}
+.SEC-BACKGROUND {
+    background: #785d5a;
+   border-radius: 3%;
+}
+
+.video-container {
+    margin-right: 20px; 
+}
+.video-container:hover{
+    opacity: 0.8; 
+    transform: scale(1.1); 
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}

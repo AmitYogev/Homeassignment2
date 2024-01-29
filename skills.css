@@ -1,0 +1,91 @@
+/*Skills */
+.flex-box-skills {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+.Skills-s {
+    width: 300px;
+    height: 300px;
+    background: #48201c5a;
+    margin: 10px;
+    border: 1px solid black;
+    position: relative;
+    top: 100px; 
+    
+}
+.Skills-s:hover{
+    background: #000;
+    color: aliceblue;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    margin-bottom: 5px;
+}
+.work {
+    position: absolute;
+    width: 631px;
+    height: 203px;
+    left: 61px;
+    top: 410px;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 85px;
+    line-height: 203px;
+    letter-spacing: -0.04em;
+    color: #48201c;
+}
+
+.Professional-background-GD {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    border: 1px solid darkgoldenrod;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    background: #785d5abc;
+    margin-top: 180px;
+    align-self: flex-start;
+}
+.Professional-background-Sales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    border: 1px solid darkgoldenrod;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    background: #785d5abc;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+.professional-image {
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    vertical-align: middle;  
+}
+.HAGAL-SHELI {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        gap: 10px;
+        border: 1px solid darkgoldenrod;
+        margin-bottom: 20px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+        background: #785d5abc;
+        margin-top: 10px;
+        align-self: flex-start;
+    
+}
+

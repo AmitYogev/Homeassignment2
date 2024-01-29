@@ -1,0 +1,141 @@
+
+  
+/* HOME*/
+/*
+.menu-list {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    list-style: none;
+    padding: 0;
+}
+
+.menu-list li {
+    margin: 0 40px; 
+    position: relative;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    background-color: #ccccccab;
+}
+*/
+
+
+.My-name{
+position: absolute;
+width: 631px;
+height: 203px;
+left: 61px;
+top: 100px;
+font-family: 'Abhaya Libre ExtraBold';
+font-style: normal;
+font-weight: 800;
+font-size: 100px;
+line-height: 203px;
+letter-spacing: -0.04em;
+color: #48201c;
+}
+h3{
+    position: absolute;
+    width: 500px;
+    height: 203px;
+    left: 61px;
+    top: 320px;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    letter-spacing: -0.04em;
+    color: #33211f;
+    white-space: nowrap;
+    }
+h4{
+        position: absolute;
+        width: 500px;
+        height: 203px;
+        left: 61px;
+        top: 380px;
+        font-family: 'Abhaya Libre ExtraBold';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        letter-spacing: -0.04em;
+        color: #785d5a;
+        white-space: nowrap;
+   }
+
+.Amit-image {
+    display: flex;
+    position: absolute;
+    width: 565px;
+    height: 500px; 
+    right: 20px; 
+    top: 200px; 
+    background: url(./amit-homepage.jpeg) no-repeat center center;
+    background-size: contain;
+   
+}
+.Low-toolbar {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    bottom: 3px; 
+    background: #48201cde;
+}
+
+.styled-text {
+    position: fixed;
+    width: 379px;
+    height: 92px;
+    left: 99px;
+    bottom: 170px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 92px;
+    text-transform: capitalize;
+    background: linear-gradient(180deg,  #610b00bc 0%,  #48201c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    bottom: 50px; 
+    position: fixed;
+    right: -30px; 
+    width: calc(100% - 50px); 
+}
+.card{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 20px;
+   
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out; 
+    z-index: 4; 
+}
+.menu-list li a:hover {
+    background: #000;
+    color: white;
+}
+
+
+  
+  
+
