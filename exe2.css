@@ -9,7 +9,11 @@ body{
     font-family: 'Abhaya Libre ExtraBold';
     min-height: 100vh;
 }
-
+header {
+    position: sticky;
+    top: 0;
+  }
+  
 
 /* HOME*/
 /*
@@ -34,7 +38,7 @@ body{
 }
 */
 nav{
-    background-color: #00000071;
+    background-color: #48201cde;
     box-shadow:3px 3px 5px rgba(0, 0, 0 , 0.1);
 }
 nav ul{
@@ -47,6 +51,7 @@ nav ul{
 }
 nav li{
     height: 50px;
+    transition: background-color 0.5s;
 }
 nav a{
     height: 100%;
@@ -59,24 +64,22 @@ nav a{
 nav a:hover{
     background-color: wheat;
 }
-nav li:first-child{
-    margin-right: auto;
-}
+
 .sidebar {
-    position: sticky;
+    position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     height: 100vh;
     width: 250px;
     z-index: 999;
+    background-color: rgb(64, 63, 63);
     backdrop-filter: blur(10px);
-    background-color: rgba(2, 0, 0, 0.368);
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.509) ;
+    box-shadow: -10px 0 10 px rgba(0, 0, 0, 0.1);
     display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-}
+  }
 .sidebar li{
     width: 100%;
 }
@@ -147,13 +150,13 @@ h4{
 .Low-toolbar {
     position: fixed;
     width: 100%;
-    height: 40px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     left: 0;
     bottom: 3px; 
-    background: rgba(0, 0, 0, 0.441);
+    background: #48201cde;
 }
 
 .styled-text {
@@ -299,7 +302,7 @@ ul li {
     width: 631px;
     height: 203px;
     left: 61px;
-    top: 300px;
+    top: 410px;
     font-family: 'Abhaya Libre ExtraBold';
     font-style: normal;
     font-weight: 800;
@@ -412,8 +415,10 @@ ul li {
 }
 
 
-@media (max-width: 800px) {
-    
+@media (max-width: 700px) {
+    header {
+        width: 100%;
+      }
     .hideonmobile {
       display: none;
     }
@@ -429,10 +434,5 @@ ul li {
     
   }
   
-  @media (max-width: 500px) {
-    .side-bar {
-      width: 200%;
-    }
-  }
-
+  
 
